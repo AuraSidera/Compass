@@ -1,0 +1,24 @@
+{
+    "name": "aurasidera/compass",
+    "description": "API documentation visualization assistant.",
+    "type": "library",
+    "authors": [{
+        "name": "Marco Zanella",
+        "email": "marco.zanella.1991@gmail.com"
+    }],
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "require": {
+      "php": ">=7.0.0",
+       "symfony/yaml": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AuraSidera\\Compass\\": "src/"
+        }
+    }
+}
